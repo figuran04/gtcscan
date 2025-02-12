@@ -1,0 +1,41 @@
+name: Process GitHub Issues
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run transaction script
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/process_transaction.py
+
+      - name: Run update_readme.py
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python scripts/update_readme.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update balances and mempool after transaction" || echo "No changes to commit"
+          git push
