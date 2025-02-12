@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blockchain Explorer</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        background: #1e1e1e;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+      }
+      .search-box input {
+        width: 65%;
+        padding: 10px;
+        margin-right: 5px;
+        border-radius: 5px;
+        border: 1px solid #444;
+        background: #222;
+        color: white;
+      }
+      .search-box button {
+        padding: 10px;
+        background: #007bff;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .search-box button:hover {
+        background: #0056b3;
+      }
+      .result-box {
+        margin-top: 20px;
+        text-align: left;
+      }
+      .txid,
+      .username {
+        word-wrap: break-word;
+        color: #ff9800;
+      }
+      .pending {
+        color: #ffc107;
+      }
+      .error {
+        color: #ff4d4d;
+        font-weight: bold;
+      }
+      .table-container {
+        overflow-x: auto;
+        max-width: 100%;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        background: #222;
+        color: white;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #444;
+        white-space: nowrap; /* Mencegah pemisahan baris */
+      }
+
+      th {
+        background: #333;
+        font-weight: bold;
+      }
+
+      a {
+        color: #ff9800;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      tr:nth-child(even) {
+        background: #2a2a2a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="https://github.com/figuran04/gtcscan">gtcscan.</a>
+      <h1>Blockchain Explorer</h1>
+      <p>Cari berdasarkan TXID atau Username</p>
+      <div class="search-box">
+        <input
+          type="text"
+          id="query"
+          placeholder="Masukkan TXID atau Username...."
+        />
+        <button onclick="searchBlockchain()">🔍 Cari</button>
+      </div>
+      <p>
+        <em
+          >Catatan: Jika baru saja melakukan transaksi, tunggu kurang lebih 10
+          detik sebelum mengecek.</em
+        >
+      </p>
+      <div id="result" class="result-box"></div>
+    </div>
+
+    <script>
+      async function fetchData(url) {
+        try {
+          let response = await fetch(url);
+          if (!response.ok) throw new Error("Data tidak ditemukan");
+          return await response.json();
+        } catch (error) {
+          return null;
+        }
+      }
+
+      async function searchBlockchain() {
+        let query = document.getElementById("query").value.trim();
+        if (!query) {
+          document.getElementById("result").innerHTML =
+            "<p class='error'>⚠️ Masukkan TXID atau Username!</p>";
+          return;
+        }
+
+        history.pushState(null, "", `?q=${query}`);
+        document.getElementById("result").innerHTML = "🔄 Memproses...";
+
+        let blockchainData = await fetchData(
+          "https://raw.githubusercontent.com/figuran04/gtcscan/main/data/blockchain.json"
+        );
+        let mempoolData = await fetchData(
+          "https://raw.githubusercontent.com/figuran04/gtcscan/main/data/mempool.json"
+        );
+        let balancesData = await fetchData(
+          "https://raw.githubusercontent.com/figuran04/gtcscan/main/data/balances.json"
+        );
+
+        if (!blockchainData || !balancesData) {
+          document.getElementById("result").innerHTML =
+            "<p class='error'>❌ Data blockchain tidak tersedia.</p>";
+          return;
+        }
+
+        let transaction = null;
+        let transactions = [];
+        let balance = balancesData[query]?.balance || 0;
+
+        // Cek transaksi dalam blockchain dan tambahkan blockIndex
+        blockchainData.blocks.forEach((block) => {
+          block.transactions.forEach((tx) => {
+            tx.blockIndex = block.index; // Tambahkan informasi block index
+            if (tx.txid === query) transaction = tx;
+            if (tx.from === query || tx.to === query) transactions.push(tx);
+          });
+        });
+
+        // Cek transaksi dalam mempool dan tandai sebagai pending
+        if (mempoolData) {
+          mempoolData.forEach((tx) => {
+            tx.blockIndex = null; // Mempool belum masuk blok
+            if (tx.txid === query) transaction = tx;
+            if (tx.from === query || tx.to === query) transactions.push(tx);
+          });
+        }
+
+        // Urutkan transaksi berdasarkan timestamp terbaru
+        transactions.sort(
+          (a, b) => new Date(b.timestamp) - new Date(a.timestamp)
+        );
+
+        let resultHTML = "";
+
+        if (transaction) {
+          resultHTML += `
+    <h2>Detail Transaksi</h2>
+    <p><strong>TXID:</strong> <span class='txid'>${transaction.txid}</span></p>
+    <p><strong>Dari:</strong> ${transaction.from}</p>
+    <p><strong>Ke:</strong> ${transaction.to}</p>
+    <p><strong>Jumlah:</strong> ${transaction.amount} GTC</p>
+    <p><strong>Waktu:</strong> ${new Date(
+      transaction.timestamp
+    ).toLocaleString()}</p>
+    ${
+      transaction.blockIndex !== null
+        ? `<p><strong>Blok:</strong> #${transaction.blockIndex}</p>`
+        : `<p class='pending'>🚧 Masih dalam mempool</p>`
+    }`;
+        } else if (balancesData[query]) {
+          resultHTML += `
+    <h2>Detail Pengguna</h2>
+    <p><strong>Username:</strong> <span class='username'>${query}</span></p>
+    <p><strong>Saldo:</strong> ${balance} GTC</p>
+    <h3>Riwayat Transaksi</h3>
+  `;
+
+          if (transactions.length > 0) {
+            resultHTML += `
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Waktu</th>
+            <th>Dari</th>
+            <th>Ke</th>
+            <th>Jumlah</th>
+            <th>TXID</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+  `;
+
+            transactions.forEach((tx) => {
+              resultHTML += `
+      <tr style="${tx.blockIndex === null ? "background: #333;" : ""}">
+        <td>${new Date(tx.timestamp).toLocaleString()}</td>
+        <td>${tx.from}</td>
+        <td>${tx.to}</td>
+        <td>${tx.amount} GTC</td>
+        <td><a href='?q=${tx.txid}'>${tx.txid}</a></td>
+        <td>
+          ${
+            tx.blockIndex !== null
+              ? `✅ Blok #${tx.blockIndex}`
+              : `<span class='pending'>🚧 Dalam mempool</span>`
+          }
+        </td>
+      </tr>
+    `;
+            });
+
+            resultHTML += `
+        </tbody>
+      </table>
+    </div>
+  `;
+          } else {
+            resultHTML += "<p>🔍 Tidak ada riwayat transaksi.</p>";
+          }
+        } else {
+          resultHTML = "<p class='error'>❌ Data tidak ditemukan.</p>";
+        }
+
+        document.getElementById("result").innerHTML = resultHTML;
+      }
+
+      function loadQueryFromURL() {
+        let params = new URLSearchParams(window.location.search);
+        let query = params.get("q");
+        if (query) {
+          document.getElementById("query").value = query;
+          searchBlockchain();
+        }
+      }
+
+      window.onload = loadQueryFromURL;
+    </script>
+  </body>
+</html>
