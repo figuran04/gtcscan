@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "from": "github-action",
+        "to": "byuJR",
+        "amount": 5.974746,
+        "timestamp": "2025-02-13T03:37:40Z",
+        "txid": "994c7a0712b91819eed51f121b9b76a2fd77551c6f25d4c4869c21a4c3544ceb"
+    }
+]

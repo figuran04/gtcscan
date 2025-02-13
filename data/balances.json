@@ -1,10 +1,14 @@
 {
     "github-action": {
-        "balance": 25.015587000000004,
-        "last_transaction": "2025-02-13T00:37:33Z"
+        "balance": 19.040841000000004,
+        "last_transaction": "2025-02-13T03:37:40Z"
     },
     "figuran04": {
         "balance": 3.751413,
         "last_transaction": "2025-02-12T16:49:35Z"
+    },
+    "byuJR": {
+        "balance": 5.974746,
+        "last_transaction": "2025-02-13T03:37:40Z"
     }
 }
