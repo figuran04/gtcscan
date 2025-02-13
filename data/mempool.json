@@ -5,5 +5,12 @@
         "amount": 5.974746,
         "timestamp": "2025-02-13T03:37:40Z",
         "txid": "994c7a0712b91819eed51f121b9b76a2fd77551c6f25d4c4869c21a4c3544ceb"
+    },
+    {
+        "from": "byuJR",
+        "to": "figuran04",
+        "amount": 2.23,
+        "timestamp": "2025-02-13T03:40:26Z",
+        "txid": "49490ee2935b10cadd58e2a59a1518acf99a54e3762f38f63f06d8c4fd3f61a6"
     }
 ]
