@@ -3,10 +3,10 @@
 <!--blockchain:start-->
 
 **🛠 Blockchain Status**
-- 📦 **Total Blok**: 2
-- 🔗 **Hash Blok Terakhir**: ab25fc4565a78ea3fdaef9578342b89fc16a95c575e790861fe6d14f09decdbe
-- ⏳ **Waktu Blok Terakhir**: 2025-02-12T16:47:20Z
-- 💰 **Supply Beredar**: 19.178 GTC
+- 📦 **Total Blok**: 3
+- 🔗 **Hash Blok Terakhir**: c1a018b2942108320258b293a7438835f6ba149302e3eb58e7fdf9883ba8fbbb
+- ⏳ **Waktu Blok Terakhir**: 2025-02-13T00:37:33Z
+- 💰 **Supply Beredar**: 28.767000000000003 GTC
 
 <!--blockchain:end-->
 
@@ -21,10 +21,11 @@ Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran
 
 | Username | Balance | Kirim |
 |----------|---------|-------|
-| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 15.426587 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
+| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 25.015587 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [figuran04](https://figuran04.github.io/gtcscan/?q=figuran04) | 3.751413 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@figuran04&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 
 
 <!--user:end-->
+
 
 
