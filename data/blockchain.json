@@ -51,6 +51,56 @@
             ],
             "hash": "c1a018b2942108320258b293a7438835f6ba149302e3eb58e7fdf9883ba8fbbb",
             "prevHash": "ab25fc4565a78ea3fdaef9578342b89fc16a95c575e790861fe6d14f09decdbe"
+        },
+        {
+            "index": 3,
+            "timestamp": "2025-02-13T08:10:51Z",
+            "transactions": [
+                {
+                    "from": "coinbase",
+                    "to": "github-action",
+                    "amount": 9.589,
+                    "timestamp": "2025-02-13T08:10:51Z",
+                    "txid": "bd17c8b48b0aa6aa48e2902a925af0bca034e3de0d18b977dd6f995078b13d87"
+                },
+                {
+                    "from": "github-action",
+                    "to": "byuJR",
+                    "amount": 5.974746,
+                    "timestamp": "2025-02-13T03:37:40Z",
+                    "txid": "994c7a0712b91819eed51f121b9b76a2fd77551c6f25d4c4869c21a4c3544ceb"
+                },
+                {
+                    "from": "byuJR",
+                    "to": "figuran04",
+                    "amount": 2.23,
+                    "timestamp": "2025-02-13T03:40:26Z",
+                    "txid": "49490ee2935b10cadd58e2a59a1518acf99a54e3762f38f63f06d8c4fd3f61a6"
+                },
+                {
+                    "from": "github-action",
+                    "to": "Lawyeritchi",
+                    "amount": 0.039254,
+                    "timestamp": "2025-02-13T03:53:41Z",
+                    "txid": "c47369ec70c71f4bfa6a3d876c33a88a67e9e1536802a5d1b91cc4b477aacaf9"
+                },
+                {
+                    "from": "figuran04",
+                    "to": "Lawyeritchi",
+                    "amount": 3.0,
+                    "timestamp": "2025-02-13T04:00:08Z",
+                    "txid": "c1fa7a20dbee25cb0ebfe0148b215c3818fe82078fbbf59242cf555c63e2f0c0"
+                },
+                {
+                    "from": "figuran04",
+                    "to": "Lawyeritchi",
+                    "amount": 1.23,
+                    "timestamp": "2025-02-13T04:45:15Z",
+                    "txid": "0f6837844b86392314ed8b82ec82adeacc7b1c36f111f420da02ba9deeb1e45b"
+                }
+            ],
+            "hash": "aae7c4979a20d379c7ed1c8632f7a006ed4c2127a84f46eaa657b85078ed775b",
+            "prevHash": "c1a018b2942108320258b293a7438835f6ba149302e3eb58e7fdf9883ba8fbbb"
         }
     ]
 }
