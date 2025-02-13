@@ -26,5 +26,12 @@
         "amount": 3.0,
         "timestamp": "2025-02-13T04:00:08Z",
         "txid": "c1fa7a20dbee25cb0ebfe0148b215c3818fe82078fbbf59242cf555c63e2f0c0"
+    },
+    {
+        "from": "figuran04",
+        "to": "Lawyeritchi",
+        "amount": 1.23,
+        "timestamp": "2025-02-13T04:45:15Z",
+        "txid": "0f6837844b86392314ed8b82ec82adeacc7b1c36f111f420da02ba9deeb1e45b"
     }
 ]
