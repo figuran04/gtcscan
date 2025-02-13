@@ -57,7 +57,15 @@ def add_transaction(sender, recipient, amount):
     mempool.append({"from": sender, "to": recipient, "amount": amount, "timestamp": timestamp, "txid": txid})
     
     save_json(MEMPOOL_FILE, mempool)
-    save_json(BALANCES_FILE, balances)
+
+    sorted_balances = dict(
+        sorted(
+            balances.items(),
+            key=lambda x: x[1]["last_transaction"] or "", 
+            reverse=True
+        )
+    )
+    save_json(BALANCES_FILE, sorted_balances)
     return txid
 
 
