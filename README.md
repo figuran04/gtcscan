@@ -1,5 +1,7 @@
 # Simulasi 🎮
 
+Gitcoin (GTC) adalah simulasi blockchain berbasis GitHub Actions dengan mekanisme sederhana yang memungkinkan pengguna melakukan transaksi sosial melalui issue GitHub. Setiap 8 jam, blok baru ditambahkan dan transaksi divalidasi secara otomatis. Sistem ini tidak memiliki aspek keamanan tinggi karena hanya untuk permainan dan eksplorasi konsep blockchain di lingkungan GitHub.
+
 <!--blockchain:start-->
 
 **🛠 Blockchain Status**
