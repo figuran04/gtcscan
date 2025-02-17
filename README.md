@@ -5,10 +5,10 @@ Gitcoin (GTC) adalah simulasi blockchain berbasis GitHub Actions dengan mekanism
 <!--blockchain:start-->
 
 **🛠 Blockchain Status**
-- 📦 **Total Blok**: 15
-- 🔗 **Hash Blok Terakhir**: d1ca93fb6f032750ccff0d761c6148bd856590602d6847e4582528e8305e29f2
-- ⏳ **Waktu Blok Terakhir**: 2025-02-17T00:39:40Z
-- 💰 **Supply Beredar**: 143.835 GTC
+- 📦 **Total Blok**: 16
+- 🔗 **Hash Blok Terakhir**: 9a23e4f84a97eb0d75d4c173c6095303ba836a8e2f8762df18e1fe294ea36399
+- ⏳ **Waktu Blok Terakhir**: 2025-02-17T08:11:42Z
+- 💰 **Supply Beredar**: 153.424 GTC
 
 <!--blockchain:end-->
 
@@ -23,13 +23,14 @@ Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran
 
 | Username | Balance | Kirim |
 |----------|---------|-------|
-| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 132.275303 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
+| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 141.864303 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [figuran04](https://figuran04.github.io/gtcscan/?q=figuran04) | 2.145697 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@figuran04&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [byuJR](https://figuran04.github.io/gtcscan/?q=byuJR) | 5.144746 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@byuJR&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [Lawyeritchi](https://figuran04.github.io/gtcscan/?q=Lawyeritchi) | 4.269254 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@Lawyeritchi&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 
 
 <!--user:end-->
+
 
 
 
