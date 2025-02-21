@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "from": "github-action",
+        "to": "tRikhan",
+        "amount": 3.398051,
+        "timestamp": "2025-02-21T03:38:31Z",
+        "txid": "3a9f3a955cc63bdb373203c501e960acfb04d181da7a5a2fa5e83ce30979d2ad"
+    }
+]
