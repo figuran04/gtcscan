@@ -1,16 +1,1 @@
-[
-    {
-        "from": "github-action",
-        "to": "tRikhan",
-        "amount": 3.398051,
-        "timestamp": "2025-02-21T03:38:31Z",
-        "txid": "3a9f3a955cc63bdb373203c501e960acfb04d181da7a5a2fa5e83ce30979d2ad"
-    },
-    {
-        "from": "figuran04",
-        "to": "tRikhan",
-        "amount": 1.23,
-        "timestamp": "2025-02-21T03:41:40Z",
-        "txid": "304d73c3b511d862a29523d7156695763b33c792426dd41130770c9d34b6df3a"
-    }
-]
+[]

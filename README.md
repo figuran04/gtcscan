@@ -5,10 +5,10 @@ Gitcoin (GTC) adalah simulasi blockchain berbasis GitHub Actions dengan mekanism
 <!--blockchain:start-->
 
 **🛠 Blockchain Status**
-- 📦 **Total Blok**: 27
-- 🔗 **Hash Blok Terakhir**: d431f20a59224743b8da16524441112e84afc54281a4afae31efebdc54c21328
-- ⏳ **Waktu Blok Terakhir**: 2025-02-21T00:38:07Z
-- 💰 **Supply Beredar**: 258.903 GTC
+- 📦 **Total Blok**: 28
+- 🔗 **Hash Blok Terakhir**: 7f8e776cbb956574f803072f781aa73840c38146aa1123f9e933318b1f393dac
+- ⏳ **Waktu Blok Terakhir**: 2025-02-21T08:10:43Z
+- 💰 **Supply Beredar**: 268.49199999999996 GTC
 
 <!--blockchain:end-->
 
@@ -23,14 +23,15 @@ Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran
 
 | Username | Balance | Kirim |
 |----------|---------|-------|
+| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 253.534252 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [tRikhan](https://figuran04.github.io/gtcscan/?q=tRikhan) | 4.628051 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@tRikhan&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [figuran04](https://figuran04.github.io/gtcscan/?q=figuran04) | 0.915697 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@figuran04&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
-| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 243.945252 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [byuJR](https://figuran04.github.io/gtcscan/?q=byuJR) | 5.144746 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@byuJR&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [Lawyeritchi](https://figuran04.github.io/gtcscan/?q=Lawyeritchi) | 4.269254 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@Lawyeritchi&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 
 
 <!--user:end-->
+
 
 
 
