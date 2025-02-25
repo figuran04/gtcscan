@@ -5,10 +5,10 @@ Gitcoin (GTC) adalah simulasi blockchain berbasis GitHub Actions dengan mekanism
 <!--blockchain:start-->
 
 **🛠 Blockchain Status**
-- 📦 **Total Blok**: 39
-- 🔗 **Hash Blok Terakhir**: b3f1d0208750d2611e8a212a520a7457692e96fde2aaaffb0da3900311195108
-- ⏳ **Waktu Blok Terakhir**: 2025-02-25T00:38:34Z
-- 💰 **Supply Beredar**: 373.97099999999995 GTC
+- 📦 **Total Blok**: 40
+- 🔗 **Hash Blok Terakhir**: 3c081ce423263d85ee689b923c8cf1257a51c5a9172186ec6361629e5e7c3eb6
+- ⏳ **Waktu Blok Terakhir**: 2025-02-25T08:11:14Z
+- 💰 **Supply Beredar**: 383.55999999999995 GTC
 
 <!--blockchain:end-->
 
@@ -23,7 +23,7 @@ Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran
 
 | Username | Balance | Kirim |
 |----------|---------|-------|
-| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 359.013252 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
+| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 368.602252 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [tRikhan](https://figuran04.github.io/gtcscan/?q=tRikhan) | 4.628051 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@tRikhan&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [figuran04](https://figuran04.github.io/gtcscan/?q=figuran04) | 0.915697 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@figuran04&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [byuJR](https://figuran04.github.io/gtcscan/?q=byuJR) | 5.144746 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@byuJR&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
@@ -31,6 +31,7 @@ Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran
 
 
 <!--user:end-->
+
 
 
 
