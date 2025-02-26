@@ -1,4 +1,8 @@
 {
+    "github-action": {
+        "balance": 293.789965,
+        "last_transaction": "2025-02-26T16:10:02Z"
+    },
     "figuran04": {
         "balance": 69.38381799999999,
         "last_transaction": "2025-02-26T16:08:23Z"
@@ -6,10 +10,6 @@
     "byuJR": {
         "balance": 12.452746,
         "last_transaction": "2025-02-26T16:08:23Z"
-    },
-    "github-action": {
-        "balance": 284.200965,
-        "last_transaction": "2025-02-26T08:11:17Z"
     },
     "tRikhan": {
         "balance": 10.628051,
