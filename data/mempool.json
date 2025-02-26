@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "from": "figuran04",
+        "to": "byuJR",
+        "amount": 2.308,
+        "timestamp": "2025-02-26T16:08:23Z",
+        "txid": "e55b00224f64ea01ffe7c5986ac4f78ca516db158d9884ca3cd1b6ca098b053d"
+    }
+]
