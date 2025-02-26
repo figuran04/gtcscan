@@ -1,7 +1,11 @@
 {
     "figuran04": {
-        "balance": 82.691818,
-        "last_transaction": "2025-02-26T04:34:41Z"
+        "balance": 76.691818,
+        "last_transaction": "2025-02-26T04:35:47Z"
+    },
+    "tRikhan": {
+        "balance": 10.628051,
+        "last_transaction": "2025-02-26T04:35:47Z"
     },
     "Lawyeritchi": {
         "balance": 10.269254,
@@ -14,10 +18,6 @@
     "IkhsanBuuddii": {
         "balance": 25.392166,
         "last_transaction": "2025-02-25T13:36:35Z"
-    },
-    "tRikhan": {
-        "balance": 4.628051,
-        "last_transaction": "2025-02-21T03:41:40Z"
     },
     "byuJR": {
         "balance": 5.144746,
