@@ -801,6 +801,28 @@
             ],
             "hash": "474896b49d09ea2e1887e1661d28c81590be22c85329371e9027d8459d562881",
             "prevHash": "35b0673eb7fa19dd88f163bc49eec112d63c99988d4e9c92071e195a7681298e"
+        },
+        {
+            "index": 46,
+            "timestamp": "2025-02-27T16:10:08Z",
+            "transactions": [
+                {
+                    "from": "coinbase",
+                    "to": "github-action",
+                    "amount": 9.589,
+                    "timestamp": "2025-02-27T16:10:08Z",
+                    "txid": "4f02aedbcf0f1998080a2c31f60e12c378acf300a7df6ee75067937f0ba68516"
+                },
+                {
+                    "from": "figuran04",
+                    "to": "tRikhan",
+                    "amount": 18.0,
+                    "timestamp": "2025-02-27T11:01:05Z",
+                    "txid": "9cf615292716c041da083a7b23053a1aa56805b6973b6c910b31fe46ec6f8ba2"
+                }
+            ],
+            "hash": "bf700214e4c4d70507f67053cf5316c9b4d16515057a856f4b3a13cbeed3aa6c",
+            "prevHash": "474896b49d09ea2e1887e1661d28c81590be22c85329371e9027d8459d562881"
         }
     ]
 }
