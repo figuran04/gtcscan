@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "from": "figuran04",
+        "to": "tRikhan",
+        "amount": 18.0,
+        "timestamp": "2025-02-27T11:01:05Z",
+        "txid": "9cf615292716c041da083a7b23053a1aa56805b6973b6c910b31fe46ec6f8ba2"
+    }
+]
