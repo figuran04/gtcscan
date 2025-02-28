@@ -823,6 +823,28 @@
             ],
             "hash": "bf700214e4c4d70507f67053cf5316c9b4d16515057a856f4b3a13cbeed3aa6c",
             "prevHash": "474896b49d09ea2e1887e1661d28c81590be22c85329371e9027d8459d562881"
+        },
+        {
+            "index": 47,
+            "timestamp": "2025-02-28T00:38:27Z",
+            "transactions": [
+                {
+                    "from": "coinbase",
+                    "to": "github-action",
+                    "amount": 9.589,
+                    "timestamp": "2025-02-28T00:38:27Z",
+                    "txid": "f877a7d70a67ea7ddb0afb14d9cefe6cf0b4a17caaa0945d13d408ec874c9c96"
+                },
+                {
+                    "from": "figuran04",
+                    "to": "Lawyeritchi",
+                    "amount": 7.19,
+                    "timestamp": "2025-02-28T00:19:27Z",
+                    "txid": "591015d74909f2ff9949417fe0f862b32a16808283f9e1deeaf4fca3396d43d2"
+                }
+            ],
+            "hash": "2a4c7fb93324d19b33fb634466062c6d3f0c78c61cc4e9665faeeda9e7209fb7",
+            "prevHash": "bf700214e4c4d70507f67053cf5316c9b4d16515057a856f4b3a13cbeed3aa6c"
         }
     ]
 }
