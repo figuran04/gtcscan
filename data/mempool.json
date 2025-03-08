@@ -5,5 +5,12 @@
         "amount": 153.33911,
         "timestamp": "2025-03-08T16:02:04Z",
         "txid": "ef97b37d3b8f4fcaf48dca1d510d9a1934ee1fdc0b7ac3bba7b25e49a0c03b7d"
+    },
+    {
+        "from": "figuran04",
+        "to": "tRikhan",
+        "amount": 73.0,
+        "timestamp": "2025-03-08T16:04:26Z",
+        "txid": "6abe644f80fe61f8786f7d0adf405d08fb40cf12fffe23202b7c2b776f9da4aa"
     }
 ]
