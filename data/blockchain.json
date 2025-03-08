@@ -1234,6 +1234,35 @@
             ],
             "hash": "e70c13f2d899da21180d4a27a041e548aa40260aa09f91af7910a873f27d75ed",
             "prevHash": "990f5a9b1bae9facf294d4345cd843ba2c56624247eae30328941e53ee7af698"
+        },
+        {
+            "index": 73,
+            "timestamp": "2025-03-08T16:06:49Z",
+            "transactions": [
+                {
+                    "from": "coinbase",
+                    "to": "github-action",
+                    "amount": 9.589,
+                    "timestamp": "2025-03-08T16:06:49Z",
+                    "txid": "ce4f315faa9a9837e1c9db2a17e8321c3df23e817e0c5768f22c6e6aa2eb0b45"
+                },
+                {
+                    "from": "github-action",
+                    "to": "figuran04",
+                    "amount": 153.33911,
+                    "timestamp": "2025-03-08T16:02:04Z",
+                    "txid": "ef97b37d3b8f4fcaf48dca1d510d9a1934ee1fdc0b7ac3bba7b25e49a0c03b7d"
+                },
+                {
+                    "from": "figuran04",
+                    "to": "tRikhan",
+                    "amount": 73.0,
+                    "timestamp": "2025-03-08T16:04:26Z",
+                    "txid": "6abe644f80fe61f8786f7d0adf405d08fb40cf12fffe23202b7c2b776f9da4aa"
+                }
+            ],
+            "hash": "9aa3077fe0776c67450bd92bbfc5920758199b8f9c84d5a000c7f2ae1187d0f2",
+            "prevHash": "e70c13f2d899da21180d4a27a041e548aa40260aa09f91af7910a873f27d75ed"
         }
     ]
 }
