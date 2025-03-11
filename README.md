@@ -1,6 +1,6 @@
 # Simulasi 🎮
 
-Gitcoin (GTC) adalah simulasi blockchain berbasis GitHub Actions yang memungkinkan pengguna bertransaksi melalui issue GitHub. Setiap 8 jam, sistem menambahkan blok baru dan mencetak 9.589 GTC, dengan mekanisme halving setiap tahun untuk mengurangi emisi koin seiring waktu. Simulasi ini berfokus pada transparansi dengan pencatatan terbuka di repository, tetapi tidak menerapkan desentralisasi karena seluruh proses dikendalikan oleh workflow GitHub. Selain desentralisasi dan transparansi, aspek lain seperti keamanan, konsensus, dan efisiensi transaksi juga menjadi elemen penting dalam blockchain nyata, meskipun tidak sepenuhnya diterapkan dalam simulasi ini.
+Githubcoin (GTC) adalah simulasi blockchain berbasis GitHub Actions yang memungkinkan pengguna bertransaksi melalui issue GitHub. Setiap 8 jam, sistem menambahkan blok baru dan mencetak 9.589 GTC, dengan mekanisme halving setiap tahun untuk mengurangi emisi koin seiring waktu. Simulasi ini berfokus pada transparansi dengan pencatatan terbuka di repository, tetapi tidak menerapkan desentralisasi karena seluruh proses dikendalikan oleh workflow GitHub. Selain desentralisasi dan transparansi, aspek lain seperti keamanan, konsensus, dan efisiensi transaksi juga menjadi elemen penting dalam blockchain nyata, meskipun tidak sepenuhnya diterapkan dalam simulasi ini.
 
 <!--blockchain:start-->
 
