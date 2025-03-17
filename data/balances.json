@@ -1,4 +1,8 @@
 {
+    "github-action": {
+        "balance": 612.7699760000013,
+        "last_transaction": "2025-03-17T16:10:44Z"
+    },
     "figuran04": {
         "balance": 141.216807,
         "last_transaction": "2025-03-17T11:33:00Z"
@@ -6,10 +10,6 @@
     "byuJR": {
         "balance": 40.922746000000004,
         "last_transaction": "2025-03-17T11:33:00Z"
-    },
-    "github-action": {
-        "balance": 603.1809760000012,
-        "last_transaction": "2025-03-17T11:29:59Z"
     },
     "IkhsanBuuddii": {
         "balance": 44.392166,
