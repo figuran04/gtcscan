@@ -1,4 +1,8 @@
 {
+    "github-action": {
+        "balance": 756.6049760000021,
+        "last_transaction": "2025-03-22T16:08:26Z"
+    },
     "figuran04": {
         "balance": 119.07680699999999,
         "last_transaction": "2025-03-22T15:14:19Z"
@@ -6,10 +10,6 @@
     "Lawyeritchi": {
         "balance": 49.699254,
         "last_transaction": "2025-03-22T15:14:19Z"
-    },
-    "github-action": {
-        "balance": 747.0159760000021,
-        "last_transaction": "2025-03-22T08:09:50Z"
     },
     "byuJR": {
         "balance": 40.922746000000004,
