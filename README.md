@@ -8,10 +8,10 @@
 <!--blockchain:start-->
 
 **🛠 Blockchain Status**
-- 📦 **Total Blok**: 200
-- 🔗 **Hash Blok Terakhir**: 5575f6bf0930a227bd4b71fee209eec9b98b8342c971246854056f29f3d105b9
-- ⏳ **Waktu Blok Terakhir**: 2025-04-19T16:08:28Z
-- 💰 **Supply Beredar**: 1917.8000000000004 GTC
+- 📦 **Total Blok**: 201
+- 🔗 **Hash Blok Terakhir**: f38ad98e1c5c3dd7e90eddb256859ba721ff029af74acfd83a120608d9f72740
+- ⏳ **Waktu Blok Terakhir**: 2025-04-20T00:44:53Z
+- 💰 **Supply Beredar**: 1927.3890000000004 GTC
 
 <!--blockchain:end-->
 
@@ -26,7 +26,7 @@ Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran
 
 | Username | Balance | Kirim |
 |----------|---------|-------|
-| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 1404.626282 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
+| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 1414.215282 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [figuran04](https://figuran04.github.io/gtcscan/?q=figuran04) | 276.531501 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@figuran04&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [Lawyeritchi](https://figuran04.github.io/gtcscan/?q=Lawyeritchi) | 49.699254 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@Lawyeritchi&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [byuJR](https://figuran04.github.io/gtcscan/?q=byuJR) | 40.922746 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@byuJR&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
@@ -35,6 +35,7 @@ Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran
 
 
 <!--user:end-->
+
 
 
 
