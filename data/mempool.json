@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "from": "figuran04",
+        "to": "Lawyeritchi",
+        "amount": 16.08,
+        "timestamp": "2025-04-27T09:08:25Z",
+        "txid": "689ef8aff9c2b0d96f2cb67ff2734562d23d6e1563851a17bbc3885329ef4d12"
+    }
+]
