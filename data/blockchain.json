@@ -4192,6 +4192,21 @@
             ],
             "hash": "bfbbe5e0a239541f8cb6d1868e18bbbf242f08c8f5ba767e533577e7582a4a50",
             "prevHash": "926ac999cdc327de742c91c8c71fa3e13475c2411d97fd94b94058fef87faa59"
+        },
+        {
+            "index": 266,
+            "timestamp": "2025-05-12T00:45:31Z",
+            "transactions": [
+                {
+                    "from": "coinbase",
+                    "to": "github-action",
+                    "amount": 9.589,
+                    "timestamp": "2025-05-12T00:45:31Z",
+                    "txid": "bac2bd5a2ee5ef9fe069bbefe828ad2bd7c619d7600f87f16727d4d976f5d14b"
+                }
+            ],
+            "hash": "86cd1ef13a68e15052475d5edb3526c0f3ee55674c3624824ec4efa6a9bea1c0",
+            "prevHash": "bfbbe5e0a239541f8cb6d1868e18bbbf242f08c8f5ba767e533577e7582a4a50"
         }
     ]
 }
