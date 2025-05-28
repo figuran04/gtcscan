@@ -1,16 +1,1 @@
-[
-    {
-        "from": "github-action",
-        "to": "figuran04",
-        "amount": 210.25476,
-        "timestamp": "2025-05-28T00:32:05Z",
-        "txid": "37f907399b73b16f8576615321e938be6df266045bb106f4a45e464268bb61e8"
-    },
-    {
-        "from": "figuran04",
-        "to": "IkhsanBuuddii",
-        "amount": 73.3,
-        "timestamp": "2025-05-28T00:33:27Z",
-        "txid": "bcb7b28a9afc4646228c8adcdf129e4b4f6a275f33a54c642ff73d65c43708a7"
-    }
-]
+[]
