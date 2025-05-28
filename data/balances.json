@@ -1,11 +1,15 @@
 {
+    "figuran04": {
+        "balance": 1305.24482,
+        "last_transaction": "2025-05-28T02:02:52Z"
+    },
+    "Darksoda1": {
+        "balance": 19.23,
+        "last_transaction": "2025-05-28T02:02:52Z"
+    },
     "github-action": {
         "balance": 1351.597962999994,
         "last_transaction": "2025-05-28T00:43:30Z"
-    },
-    "figuran04": {
-        "balance": 1324.47482,
-        "last_transaction": "2025-05-28T00:33:27Z"
     },
     "IkhsanBuuddii": {
         "balance": 117.692166,

@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "from": "figuran04",
+        "to": "Darksoda1",
+        "amount": 19.23,
+        "timestamp": "2025-05-28T02:02:52Z",
+        "txid": "1fdc6a4db8e8c44a63ccfdc7789b59e9767573fa423fe945e517146ab330d665"
+    }
+]
