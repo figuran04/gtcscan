@@ -1,15 +1,15 @@
 {
+    "figuran04": {
+        "balance": 1751.242987,
+        "last_transaction": "2025-06-11T17:03:05Z"
+    },
+    "Darksoda1": {
+        "balance": 39.33,
+        "last_transaction": "2025-06-11T17:03:05Z"
+    },
     "github-action": {
         "balance": 1288.1357959999918,
         "last_transaction": "2025-06-11T16:11:04Z"
-    },
-    "figuran04": {
-        "balance": 1761.342987,
-        "last_transaction": "2025-06-06T02:05:32Z"
-    },
-    "Darksoda1": {
-        "balance": 29.23,
-        "last_transaction": "2025-05-28T12:37:19Z"
     },
     "Lawyeritchi": {
         "balance": 85.05925400000001,
