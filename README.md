@@ -8,16 +8,16 @@
 <!--blockchain:start-->
 
 **🛠 Blockchain Status**
-- 📦 **Total Blok**: 715
-- 🔗 **Hash Blok Terakhir**: a5aa01e8a53b3243bf94cb73393b3ed3a740ca640ed992a9c2c230ec1e927e1b
-- ⏳ **Waktu Blok Terakhir**: 2025-10-08T08:13:07Z
-- 💰 **Supply Beredar**: 5178.059999999981 GTC
+- 📦 **Total Blok**: 716
+- 🔗 **Hash Blok Terakhir**: 9b241757acfb0d98e0d4f6a96b1b99d3c58b2d93530bb3de1c434d812f0b8a77
+- ⏳ **Waktu Blok Terakhir**: 2025-10-08T16:10:56Z
+- 💰 **Supply Beredar**: 5182.854499999981 GTC
 
 <!--blockchain:end-->
 
 <!--user:start-->
 
-Ingin mengirim GTC ke pengguna lain? Pastikan Anda memiliki koin.
+Ingin mengirim GTC ke pengguna lain? Pastikan Anda memiliki saldo.
 Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran04/gtcscan/issues/new?title=Terima+dari+@github-action&body=Cukup+kirim+dan+menunggu+transaksi+divalidasi).
 
 > Cek transaksi Anda [di sini](https://figuran04.github.io/gtcscan).
@@ -26,7 +26,7 @@ Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran
 
 | Username | Balance | Kirim |
 |----------|---------|-------|
-| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 3774.987096 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
+| [github-action](https://figuran04.github.io/gtcscan/?q=github-action) | 3779.781596 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@github-action&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [figuran04](https://figuran04.github.io/gtcscan/?q=figuran04) | 1000.000687 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@figuran04&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [Darksoda1](https://figuran04.github.io/gtcscan/?q=Darksoda1) | 39.33 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@Darksoda1&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
 | [Lawyeritchi](https://figuran04.github.io/gtcscan/?q=Lawyeritchi) | 85.059254 GTC | [Kirim](https://github.com/figuran04/gtcscan/issues/new?title=Kirim+1.23+GTC+ke+@Lawyeritchi&body=Nominal+dapat+diganti+terlebih+dahulu+sebelum+mengirim+dan+menunggu+transaksi+divalidasi) |
@@ -36,6 +36,7 @@ Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran
 
 
 <!--user:end-->
+
 
 
 
