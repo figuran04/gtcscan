@@ -17,7 +17,7 @@
 
 <!--user:start-->
 
-Ingin mengirim GTC ke pengguna lain? Pastikan Anda memiliki saldo.
+Ingin mengirim GTC ke pengguna lain? Pastikan Anda memiliki koin.
 Dapatkan koin gratis dari miner dengan klik [di sini](https://github.com/figuran04/gtcscan/issues/new?title=Terima+dari+@github-action&body=Cukup+kirim+dan+menunggu+transaksi+divalidasi).
 
 > Cek transaksi Anda [di sini](https://figuran04.github.io/gtcscan).
