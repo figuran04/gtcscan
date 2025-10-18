@@ -43,7 +43,7 @@ def update_readme():
     user_table = generate_user_table(balances)
 
     info_text = (
-        "Ingin mengirim GTC ke pengguna lain? Pastikan Anda memiliki saldo.\n"
+        "Ingin mengirim GTC ke pengguna lain? Pastikan Anda memiliki koin.\n"
         "Dapatkan koin gratis dari miner dengan klik "
         f"[di sini](https://github.com/{GITHUB_REPOSITORY}/issues/new?title=Terima+dari+@github-action&body=Cukup+kirim+dan+menunggu+transaksi+divalidasi).\n\n"
         f"> Cek transaksi Anda [di sini](https://{REPO_OWNED}.github.io/{REPO_NAME}).\n\n"
@@ -68,4 +68,5 @@ def update_readme():
     print("README.md berhasil diperbarui!")
 
 if __name__ == "__main__":
+
     update_readme()
