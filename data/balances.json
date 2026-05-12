@@ -1,11 +1,15 @@
 {
+    "figuran04": {
+        "balance": 997.7706870000001,
+        "last_transaction": "2026-05-12T06:58:32Z"
+    },
+    "IkhsanBuuddii": {
+        "balance": 119.922166,
+        "last_transaction": "2026-05-12T06:58:32Z"
+    },
     "github-action": {
         "balance": 5040.735095999974,
         "last_transaction": "2026-05-12T01:45:14Z"
-    },
-    "figuran04": {
-        "balance": 1000.0006870000001,
-        "last_transaction": "2025-07-26T01:43:54Z"
     },
     "Darksoda1": {
         "balance": 39.33,
@@ -14,10 +18,6 @@
     "Lawyeritchi": {
         "balance": 85.05925400000001,
         "last_transaction": "2025-05-28T12:27:44Z"
-    },
-    "IkhsanBuuddii": {
-        "balance": 117.692166,
-        "last_transaction": "2025-05-28T00:33:27Z"
     },
     "byuJR": {
         "balance": 59.362746,

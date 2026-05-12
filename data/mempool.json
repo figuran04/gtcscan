@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "from": "figuran04",
+        "to": "IkhsanBuuddii",
+        "amount": 2.23,
+        "timestamp": "2026-05-12T06:58:32Z",
+        "txid": "dfb9822429f78d93244728fdd307dbee9decf3855adf25f365149d05b5ee5c57"
+    }
+]
