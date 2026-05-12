@@ -1,4 +1,8 @@
 {
+    "github-action": {
+        "balance": 5041.933720999974,
+        "last_transaction": "2026-05-12T10:19:58Z"
+    },
     "figuran04": {
         "balance": 997.7706870000001,
         "last_transaction": "2026-05-12T06:58:32Z"
@@ -6,10 +10,6 @@
     "IkhsanBuuddii": {
         "balance": 119.922166,
         "last_transaction": "2026-05-12T06:58:32Z"
-    },
-    "github-action": {
-        "balance": 5040.735095999974,
-        "last_transaction": "2026-05-12T01:45:14Z"
     },
     "Darksoda1": {
         "balance": 39.33,
