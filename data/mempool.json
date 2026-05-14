@@ -1,1 +1,9 @@
-[]
+[
+    {
+        "from": "github-action",
+        "to": "figuran04",
+        "amount": 37.403919,
+        "timestamp": "2026-05-14T00:10:33Z",
+        "txid": "9a19029093de20102c6e81573602a408e346b34c0d64573753c9860c348d6155"
+    }
+]
