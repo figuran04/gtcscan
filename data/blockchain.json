@@ -25643,6 +25643,21 @@
             ],
             "hash": "41bf06d8db08bb3e5e608c2d11aeff147a4796d4723d0a1c1e3d0748c80d3ad7",
             "prevHash": "b9699c1306ecfa3d4a745bc07763834658903f82e76cf82b12301f89e194e172"
+        },
+        {
+            "index": 1690,
+            "timestamp": "2026-08-31T21:08:41Z",
+            "transactions": [
+                {
+                    "from": "coinbase",
+                    "to": "github-action",
+                    "amount": 0.5993125,
+                    "timestamp": "2026-08-31T21:08:41Z",
+                    "txid": "66fd5e9e629a43435b0d7a33aedcd5b992e9d534ff1f1c51a3ab1553d0187b87"
+                }
+            ],
+            "hash": "2f0bbeaf527d71b43adb82ac9b92c094392c95bddc1f0a1e5fe39119348eeb9d",
+            "prevHash": "41bf06d8db08bb3e5e608c2d11aeff147a4796d4723d0a1c1e3d0748c80d3ad7"
         }
     ]
 }
